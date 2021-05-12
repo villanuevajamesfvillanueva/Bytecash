@@ -21,7 +21,7 @@ const amountTransfer = document.querySelector(".amount-transfer");
 
 const logoutButton = document.querySelector(".logout");
 logoutButton.addEventListener("click", () => {
-    window.location.href = "Activity15_BankingApp.html";
+    window.location.href = "index.html";
 });
 
 const mainDivs = document.querySelectorAll(".main-div");

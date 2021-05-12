@@ -57,7 +57,7 @@ loginButton.addEventListener("click", () => {
     if (existingUser && password === validUser[user]) {
         console.log("Login successful.");
         console.log(`Account: ${user} is logged in.`);
-        window.location.href = "mainPage.html";
+        window.location.href = "app.html";
     }
 
     else {

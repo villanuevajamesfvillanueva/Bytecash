@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bankingAppMain.css">
+    <link rel="stylesheet" href="css/style_app.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Banking App Main Page</title>
@@ -38,39 +38,39 @@
                 <div class="nav-label">Hi <span class="user">James</span>, <span class="welcome">welcome!</span></div>
                 <input class="input search not-avail-yet" type="text" id="search" name="search" placeholder="Search">
                 <div class="home nav-item">
-                    <img src="../images/bankingApp/home.svg" alt="home icon">
+                    <img src="images/home.svg" alt="home icon">
                     <span>Home</span>
                 </div>
                 <div class="clients nav-item">
-                    <img src="../images/bankingApp/clients.svg" alt="clients icon">
+                    <img src="images/clients.svg" alt="clients icon">
                     <span>Clients</span>
                 </div>
                 <div class="add-new-client nav-item">
-                    <img src="../images/bankingApp/addclient.svg" alt="enroll new client icon">
+                    <img src="images/addclient.svg" alt="enroll new client icon">
                     <span>Enroll New Client</span>
                 </div>
                 <div class="delete-client nav-item">
-                    <img src="../images/bankingApp/deleteclient.svg" alt="delete client icon">
+                    <img src="images/deleteclient.svg" alt="delete client icon">
                     <span>Delete Client</span>
                 </div>
                 <div class="withdrawdeposit nav-item">
-                    <img src="../images/bankingApp/depositwithdraw.svg" alt="fund transfer icon">
+                    <img src="images/depositwithdraw.svg" alt="fund transfer icon">
                     <span>Withdraw/Deposit</span>
                 </div>
                 <div class="fund-transfer nav-item">
-                    <img src="../images/bankingApp/fundtransfer.svg" alt="fund transfer icon">
+                    <img src="images/fundtransfer.svg" alt="fund transfer icon">
                     <span>Fund Transfer</span>
                 </div>
                 <div class="transact-histories nav-item">
-                    <img src="../images/bankingApp/hist.svg" alt="transaction history icon">
+                    <img src="images/hist.svg" alt="transaction history icon">
                     <span>History</span>
                 </div>
                 <div class="analytics nav-item">
-                    <img src="../images/bankingApp/analytics.svg" alt="analytics icon">
+                    <img src="images/analytics.svg" alt="analytics icon">
                     <span>Analytics</span>
                 </div>
                 <div class="logout nav-item">
-                    <img src="../images/bankingApp/logout.svg" alt="logout icon">
+                    <img src="images/logout.svg" alt="logout icon">
                     <span>Logout</span>
                 </div>
             </div>
@@ -80,11 +80,11 @@
             <div class="navbar-set insights">
                 <div class="nav-label">Insights</div>
                 <div class="fund-transfer nav-item not-avail-yet">
-                    <img src="../images/bankingApp/inbox.svg" alt="inbox icon">
+                    <img src="images/inbox.svg" alt="inbox icon">
                     <span>Inbox</span>
                 </div>
                 <div class="trasact-histories nav-item not-avail-yet">
-                    <img src="../images/bankingApp/notifbell.svg" alt="inbox icon">
+                    <img src="images/notifbell.svg" alt="inbox icon">
                     <span>Notifications</span>
                 </div>
             </div>
@@ -94,8 +94,8 @@
             <div class="navbar-set darkmode">
                 <input type="checkbox" class="checkbox" id="chk" />
                 <label class="darkmode-label" for="chk">
-                    <img class="fas fa-moon" src="../images/bankingApp/moon.svg" alt="moon icon">
-                    <img class="fas fa-sun" src="../images/bankingApp/sun2.svg" alt="sun icon">
+                    <img class="fas fa-moon" src="images/moon.svg" alt="moon icon">
+                    <img class="fas fa-sun" src="images/sun2.svg" alt="sun icon">
                     <div class="ball"></div>
                 </label>
             </div>
@@ -140,7 +140,7 @@
 
         <div class="enroll-div main-div inactive">
             <h1 class="tool-title">Enroll New Client</h1>
-            <img class="x-button enroll-x" src="../images/bankingApp/x-button.svg" alt="x button">
+            <img class="x-button enroll-x" src="images/x-button.svg" alt="x button">
             <form action="" class="enroll-form">
                 <input class="input " type="text" id="firstname" name="firstname" placeholder="Firstname" required>
                 <input class="input " type="text" id="lastname" name="lastname" placeholder="Lastname" required>
@@ -155,7 +155,7 @@
 
         <div class="delete-div main-div inactive">
             <h1 class="tool-title">Delete Client</h1>
-            <img class="x-button delete-x" src="../images/bankingApp/x-button.svg" alt="x button">
+            <img class="x-button delete-x" src="images/x-button.svg" alt="x button">
             <form action="" class="delete-form">
                 <input class="input " type="number" id="deleting-acct" name="deleting-acct" placeholder="Account Number">
                 <!-- show client profile before asking confirmation question to delete -->
@@ -168,7 +168,7 @@
 
         <div class="withdrawdeposit-div main-div inactive">
             <h1 class="tool-title">Withdraw/Deposit</h1>
-            <img class="x-button withdrawdeposit-x" src="../images/bankingApp/x-button.svg" alt="x button">
+            <img class="x-button withdrawdeposit-x" src="images/x-button.svg" alt="x button">
             <form action="" class="withdrawdeposit-form">
                 <input class="input " type="number" id="withdrawdeposit-acct" name="withdrawdeposit-acct" placeholder="Account Number">
                 <input class="input " type="number" id="amount" name="amount" placeholder="0.00" required>
@@ -184,7 +184,7 @@
 
         <div class="fund-transfer-div main-div inactive">
             <h1 class="tool-title">Fund Transfer</h1>
-            <img class="x-button transfer-x" src="../images/bankingApp/x-button.svg" alt="x button">
+            <img class="x-button transfer-x" src="images/x-button.svg" alt="x button">
             <form action="" class="fund-transfer-form">
                 <input class="input " type="number" id="transfer-from" name="transfer-from" placeholder="Account Number">
                 <input class="input " type="number" id="transfer-to" name="transfer-to" placeholder="Account Number">
@@ -227,7 +227,7 @@
 
         <div class="bg-overlay"></div>
         <div class="not-avail">
-            <img class="not-avail-x" src="../images/bankingApp/x-button.svg" alt="x button">
+            <img class="not-avail-x" src="images/x-button.svg" alt="x button">
             <span>Sorry. This feature is not available yet.</span>
         </div>
 
@@ -235,6 +235,6 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous"></script>
-    <script src="js/bankingAppMain.js"></script>
+    <script src="js/script_app.js"></script>
 </body>
 </html>
